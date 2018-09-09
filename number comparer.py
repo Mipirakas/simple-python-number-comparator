@@ -1,7 +1,8 @@
-print("Welcome to this state of the art ;) number comparer. Give me 2 numbers and i'll compare them for you.")
-print("Input your first number below:\n")
-N1 = input("First Number: ")
-N2 = input("Second Number: ")
+print("Welcome to this state of the art ;) number comparer.\nInput your 2 numbers below and i'll compare them for you.\n")
+
+N1 = input("Number 1: ")
+N2 = input("Number 2: ")
+
 if N1 == N2:
 	print("\nNumber 1 and 2 are equal")
 else:
